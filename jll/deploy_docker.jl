@@ -6,8 +6,8 @@ run(`$(git()) config --global user.email "bizzanoj@my.erau.edu"`)
 const repo_user = "HyperSphereStudio"
 
 const mousetrap_commit = "b66a2599d10642991c5a9fc983f69b2caef15cf1"
-#const mousetrap_julia_binding_commit = "8d3b3491e997b4d8286876f8986ff84d5b89d5dd"
-const mousetrap_julia_binding_commit = "1e1944c4391e1f8e0f90e23f60d5463dd19a2ea6"
+const mousetrap_julia_binding_commit = "8d3b3491e997b4d8286876f8986ff84d5b89d5dd"
+#const mousetrap_julia_binding_commit = "1e1944c4391e1f8e0f90e23f60d5463dd19a2ea6"
 
 const VERSION = "0.4.5"
 const deploy_local = false
