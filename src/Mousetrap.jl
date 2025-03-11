@@ -36,9 +36,9 @@ module Mousetrap
             @initcxx()
         end
 
-        using libmousetrap_jll
+        using mousetrap_jll
         function get_mousetrap_julia_binding()
-            return libmousetrap_jll.mousetrap_julia_binding
+            return mousetrap_jll.mousetrap_julia_binding
         end
 
         try_update_gsettings_schema_dir()       # executed on `precompile Mousetrap`, but not on using, silences warning during installation
